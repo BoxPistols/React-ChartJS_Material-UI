@@ -18,8 +18,10 @@ const data =
 const LinePlot: React.FC = () => {
     return (
         <div>
-            AAA
-            <Line data={data} />
+            <section className="section">
+                <h2>Line</h2>
+                <Line data={data} />
+            </section>
         </div>
     )
 }
