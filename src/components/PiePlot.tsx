@@ -12,10 +12,11 @@ const dataObj = {
         },
     ],
 }
-const PiePlot = () => {
+
+const PiePlot: React.FC = () => {
     return (
         <div>
-            <section className="section">
+            <section className='section'>
                 <h2>Pie</h2>
                 <Pie data={dataObj} />
                 <Doughnut data={dataObj} />
