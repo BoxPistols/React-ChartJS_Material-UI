@@ -1,12 +1,15 @@
 .App {
-	// text-align: center;
-	background-color: #282c34;
 	min-height: 100vh;
+
 	color: ghostwhite;
+	background-color: #282c34;
 }
 
 .section {
-	padding: 24px;
 	display: flex;
-	max-width: 50vw;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 960px;
+	padding: 24px;
+	margin: auto;
 }
