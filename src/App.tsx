@@ -10,9 +10,9 @@ import BubblePlot from './components/BubblePlot'
 function App() {
     return (
         <div className='App'>
+            <MaterialUI />
             <BubblePlot />
             <RadarPlot />
-            <MaterialUI />
             <BarPlot />
             <LineProt />
             <PiePlot />
