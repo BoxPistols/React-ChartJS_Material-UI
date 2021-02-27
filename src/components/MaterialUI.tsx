@@ -1,6 +1,10 @@
 import React from 'react'
-import { Grid, Button, makeStyles, Typography, Paper } from '@material-ui/core'
-// import Grid from '@material-ui/core/Grid';
+// import { Grid, Button, makeStyles, Typography, Paper } from '@material-ui/core'
+import Grid from '@material-ui/core/Grid'
+import Button from '@material-ui/core/Button'
+import Typography from '@material-ui/core/Typography'
+import Paper from '@material-ui/core/Paper'
+import { makeStyles } from '@material-ui/core'
 
 const useStyles = makeStyles({
     btnStyle: {
@@ -15,7 +19,6 @@ const useStyles = makeStyles({
         height: "50px",
         textAlign: "center"
     }
-
 })
 
 const MaterialUI: React.FC = () => {
@@ -71,6 +74,7 @@ const MaterialUI: React.FC = () => {
 						</Button>
                     </>
                 </Grid>
+
             </section>
         </div >
     )
