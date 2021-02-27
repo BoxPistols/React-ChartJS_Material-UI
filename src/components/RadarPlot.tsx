@@ -36,24 +36,25 @@ const data = {
             pointBorderColor: '#fff ',
             data: [80, 60, 40, 25, 50, 70],
         },
-        {
-            label: 'Other Chocolate',
-            backgroundColor: 'rgba(0,0,0, 0.05)',
-            borderColor: 'gray',
-            pointBackgroundColor: 'gray',
-            pointBorderColor: '#fff ',
-            data: [random(), random(), random(), random(), random(), random()],
-        },
+        // {
+        //     label: 'Other Chocolate',
+        //     backgroundColor: 'rgba(0,0,0, 0.05)',
+        //     borderColor: 'gray',
+        //     pointBackgroundColor: 'gray',
+        //     pointBorderColor: '#fff ',
+        //     data: [random(), random(), random(), random(), random(), random()],
+        // },
     ],
 }
 
-function random() {
-    return (
-        (
-            Math.random() > 0.5 ? 1.0 :
-                -1.0) * Math.round(Math.random() * 80)
-    )
-}
+
+// function random() {
+//     return (
+//         (
+//             Math.random() > 0.5 ? 1.0 :
+//                 -1.0) * Math.round(Math.random() * 80)
+//     )
+// }
 
 const RadarPlot: React.FC = () => {
     return (
