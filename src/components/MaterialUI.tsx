@@ -29,22 +29,22 @@ const MaterialUI: React.FC = () => {
                     <Grid item xs={12}>
                         <Paper className={css.paperStyle}>xs=12</Paper>
                     </Grid>
-                    <Grid item xs={6}>
+                    <Grid item xs={12} md={6}>
                         <Paper className={css.paperStyle}>xs=6</Paper>
                     </Grid>
-                    <Grid item xs={6}>
+                    <Grid item xs={12} md={6}>
                         <Paper className={css.paperStyle}>xs=6</Paper>
                     </Grid>
-                    <Grid item xs={3}>
+                    <Grid item xs={4} md={6}>
                         <Paper className={css.paperStyle}>xs=3</Paper>
                     </Grid>
-                    <Grid item xs={3}>
+                    <Grid item xs={4} md={6}>
                         <Paper className={css.paperStyle}>xs=3</Paper>
                     </Grid>
-                    <Grid item xs={3}>
+                    <Grid item xs={4} md={6}>
                         <Paper className={css.paperStyle}>xs=3</Paper>
                     </Grid>
-                    <Grid item xs={3}>
+                    <Grid item xs={4} md={6}>
                         <Paper className={css.paperStyle}>xs=3</Paper>
                     </Grid>
                 </Grid>
